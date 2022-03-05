@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery component mathces snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="h1tag"
+    >
+      Portraits
+    </h1>
+    <p>
+      people
+    </p>
+    <div>
+      <div
+        class="flex-row"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`displays text 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="h1tag"
+    >
+      Portraits
+    </h1>
+    <p>
+      people
+    </p>
+    <div>
+      <div
+        class="flex-row"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;
