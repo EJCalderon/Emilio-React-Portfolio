@@ -58,7 +58,7 @@ describe('emoji is visible', () => {
           contactSelected={mockContactSelected}
           setContactSelected={mockSetContactSelected}
           />);
-          expect(getByTestId('link').toHaveTextContent('Ah');
+          expect(getByTestId('link')).toHaveTextContent('Ah');
           expect(getByTestId('about')).toHaveTextContent('me');
       });
     })
