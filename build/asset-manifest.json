@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Emilio-React-Portfolio/static/css/main.8832ea63.css",
+    "main.js": "/Emilio-React-Portfolio/static/js/main.29694e00.js",
+    "static/js/787.25cd21a7.chunk.js": "/Emilio-React-Portfolio/static/js/787.25cd21a7.chunk.js",
+    "static/media/CC.jpg": "/Emilio-React-Portfolio/static/media/CC.c752dac74d0aa1d572eb.jpg",
+    "index.html": "/Emilio-React-Portfolio/index.html",
+    "main.8832ea63.css.map": "/Emilio-React-Portfolio/static/css/main.8832ea63.css.map",
+    "main.29694e00.js.map": "/Emilio-React-Portfolio/static/js/main.29694e00.js.map",
+    "787.25cd21a7.chunk.js.map": "/Emilio-React-Portfolio/static/js/787.25cd21a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8832ea63.css",
+    "static/js/main.29694e00.js"
+  ]
+}
