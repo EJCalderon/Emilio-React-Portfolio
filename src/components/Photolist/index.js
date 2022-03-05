@@ -7,65 +7,36 @@ const PhotoList = ({ category }) => {
 
     const [photos] = useState([
         {
-            name: '',
+            name: 'Run buddy',
             //made one template and copied them
             category: 'portfolio',
-            description: ''
+            description: 'Get your sweat on with this website created with HTMl and css'
         },
         {
-            name: '',
+            name: 'PokeParent',
             //made one template and copied them
             category: 'portfolio',
-            description: ''
+            description: 'Be a great parent and raise a fictious animal'
         },
         {
-            name: '',
+            name: 'Cowsulting',
             //made one template and copied them
             category: 'portfolio',
-            description: ''
+            description: 'We offer consults for Cows, it is incredible'
         },
         {
-            name: '',
+            name: 'Git Stuff',
             //made one template and copied them
             category: 'portfolio',
-            description: ''
+            description: 'Come git some stuff'
         },
         {
-            name: '',
+            name: 'Read you Node',
             //made one template and copied them
             category: 'portfolio',
-            description: ''
+            description: 'An easy to use README generator'
         },
-        {
-            name: '',
-            //made one template and copied them
-            category: 'portfolio',
-            description: ''
-        },
-        {
-            name: '',
-            //made one template and copied them
-            category: 'portfolio',
-            description: ''
-        },
-        {
-            name: '',
-            //made one template and copied them
-            category: 'portfolio',
-            description: ''
-        },
-        {
-            name: '',
-            //made one template and copied them
-            category: 'portfolio',
-            description: ''
-        },
-        {
-            name: '',
-            //made one template and copied them
-            category: 'portfolio',
-            description: ''
-        },
+      
     ]);
     const currentPhotos = photos.filter(photo => photoCategory === category);
     const toggleModal = (image, i) => {
