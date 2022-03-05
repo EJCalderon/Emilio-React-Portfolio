@@ -23,13 +23,13 @@ function App() {
       <Nav 
       categories={categories}
       setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
+      currentCategory={CurrentCategory}
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}></Nav>
       <main>
         {!contactSelected ? (
           <>
-          <Gallery currentCategory={currentCategory}></Gallery>
+          <Gallery currentCategory={CurrentCategory}></Gallery>
           <About>
           
           </About>

@@ -31,11 +31,11 @@ function Nav(props) {
                         </li>
                         {categories.map((category) => (
                             <li className={`mx-1 ${
-                                currentCategoru.name === category.name && !contactedSelected && 'navActive'
+                                currentCategory.name === category.name && !contactedSelected && 'navActive'
                             }`}
                             key={category.name}>
                                 <span onClick={() => {
-                                    setCurrentCategory(category);
+                                    setCurrentCategories(category);
                                     setContactSelected(false);
                                 }}>
                                     {capitalizeFirstLetter(category.name)}
